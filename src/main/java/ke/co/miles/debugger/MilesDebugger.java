@@ -11,6 +11,13 @@ package ke.co.miles.debugger;
  */
 public class MilesDebugger {
 
+    public static void debug(Throwable object) {
+
+        System.out.println("<<----------------------------------------------------------->>");
+        System.out.println(object);
+        System.out.println("<<----------------------------------------------------------->>");
+    }
+
     public static void debug(int object) {
 
         System.out.println("<<----------------------------------------------------------->>");
@@ -82,13 +89,6 @@ public class MilesDebugger {
     }
 
     public static void debug(Object object) {
-
-        System.out.println("<<----------------------------------------------------------->>");
-        System.out.println(object);
-        System.out.println("<<----------------------------------------------------------->>");
-    }
-
-    public static void debug(Throwable object) {
 
         System.out.println("<<----------------------------------------------------------->>");
         System.out.println(object);
