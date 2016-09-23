@@ -97,9 +97,17 @@ public class MilesDebugger {
 
     public static void debug(Object... objects) {
 
+        int times = 0;
+        System.out.println("<<----------------------------------------------------------->>");
         for (Object object : objects) {
-            debug(object);
+            if (++times > 1) {
+                System.out.println("\n" + object);
+            } else {
+                System.out.println(object);
+            }
         }
+        System.out.println("<<----------------------------------------------------------->>");
+
     }
 
 }

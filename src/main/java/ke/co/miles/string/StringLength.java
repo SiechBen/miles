@@ -18,6 +18,5 @@ public class StringLength {
         StringBuilder stringBuilder = new StringBuilder();
         stringBuilder.append("Length of string is ").append(String.valueOf(length));
         JOptionPane.showMessageDialog(null, String.valueOf(stringBuilder));
-
     }
 }
