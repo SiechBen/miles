@@ -11,6 +11,13 @@ package ke.co.miles.debugger;
  */
 public class MilesDebugger {
 
+    public static void debug() {
+
+        System.out.println("<<----------------------------------------------------------->>");
+        System.out.println("C4 charges rigged; ready to blow!");
+        System.out.println("<<----------------------------------------------------------->>");
+    }
+
     public static void debug(Throwable object) {
 
         System.out.println("<<----------------------------------------------------------->>");
